@@ -79,6 +79,11 @@ end
 # param_1 = obj.get(key)
 # obj.put(key, value)
 
+# Your LRUCache object will be instantiated and called as such:
+# obj = LRUCache.new(capacity)
+# param_1 = obj.get(key)
+# obj.put(key, value)
+
 
 lRUCache = LRUCache.new(10)
 actions = ["put","put","put","put","put","get","put","get","get","put","get","put","put","put","get","put","get","get","get","get","put","put","get","get","get","put","put","get","put","get","put","get","get","get","put","put","put","get","put","get","get","put","put","get","put","put","put","put","get","put","put","get","put","put","get","put","put","put","put","put","get","put","put","get","put","get","get","get","put","get","get","put","put","put","put","get","put","put","put","put","get","get","get","put","put","put","get","put","put","put","get","put","put","put","get","get","get","put","put","put","put","get","put","put","put","put","put","put","put"]
