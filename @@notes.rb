@@ -38,6 +38,9 @@ require 'httparty'
 # https://github.com/jnunemaker/httparty/tree/master/examples
 response = HTTParty.get('http://api.stackexchange.com/2.2/questions?site=stackoverflow')
 
+# ruby json
+require 'json'
+
 # require require_relative
 
 # fusion api yelp
