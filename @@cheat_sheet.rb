@@ -32,4 +32,14 @@ Dir.glob(File.dirname(__FILE__) + '/ticks/selected/*.csv') do |csv_filename|
   Tick.insert_all(ticks)
 end
 
+require 'httparty'
 # ruby http call
+# https://www.rubyguides.com/2018/08/ruby-http-request/
+# https://github.com/jnunemaker/httparty/tree/master/examples
+response = HTTParty.get('http://api.stackexchange.com/2.2/questions?site=stackoverflow')
+
+# require require_relative
+
+# fusion api yelp
+
+# ruby rate limiter
